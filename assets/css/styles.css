@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+html{
+    background-color:blueviolet;
+    background-size: 100%;
+    display: block;
+}
+.container{
+    background-color: white;
+    max-height: 600px;
+    max-width: 500px;
+    margin: 100px auto auto auto;
+    padding: 10px 50px 50px 50px;
+}
+h1{
+    color: blueviolet;
+    font-size: 50px;
+    text-align: center;
+}
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border: none;
+    background: #afa2a2;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #4d4444;
+}
+.btn-eq:hover{
+    background: royalblue;
+}
+.btn-clear:hover{
+    background: crimson;
+}
+.btn-del:hover{
+    background: crimson;
+}
+
+
+
+
